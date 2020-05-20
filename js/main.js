@@ -6,7 +6,6 @@ var highlight;
 var identifyTask;
 var params;
 var ids;
-var infoDiv;
 var project_count;
 var zone_name;
 var side_nav_loader;
@@ -39,82 +38,19 @@ const roles = {
 
 require([
     "esri/config",
-    "esri/Map",
     "esri/views/MapView",
     "esri/WebMap",
     "esri/layers/FeatureLayer",
-	"esri/tasks/IdentifyTask",
-    "esri/tasks/support/IdentifyParameters",
-    "esri/widgets/Search",
     "esri/widgets/Locate",
     "esri/widgets/Home",
-    "esri/widgets/Popup",
-    "esri/layers/support/LabelClass",
-    "esri/core/promiseUtils",
-    "esri/core/watchUtils",
-	"esri/core/urlUtils",
-	"esri/tasks/support/Query",
-	"esri/core/Collection",
     "dojo/domReady!"], function (
 	esriConfig,
-	Map,
 	MapView,
 	WebMap,
 	FeatureLayer,
-	IdentifyTask,
-	IdentifyParameters,
-	Search,
 	Locate,
 	Home,
-	Popup,
-	LabelClass,
-	promiseUtils,
-	watchUtils,
-	urlUtils,
-	Query,
-	Collection
 ) {
-	
-	infoDiv = document.getElementById("info")
-	
-	//LABEL CLASSES
-	var active_projects_labels = {
-        symbol: {
-            type: "text",
-            color: "black",
-            haloColor: [255,255,255, 1.0],
-            haloSize: 1.5,
-            font: {
-                family: "Arial Unicode MS",
-                size: 10,
-                style:"normal",
-                weight: "bold"
-            }
-        },
-        labelPlacement: "always-horizontal",
-        labelExpressionInfo: {
-            expression: "upper($feature.NAME)"
-        }
-    };
-	
-	var buildingsLabelClass = {
-        symbol: {
-            type: "text",
-            color: "white",
-            haloColor: [0, 0, 0, 1.0],
-            haloSize: 0.75,
-            font: {
-                family: "Arial Unicode MS",
-                size: 9,
-                style:"normal",
-                weight: "bold"
-            }
-        },
-        labelPlacement: "always-horizontal",
-        labelExpressionInfo: {
-            expression: "$feature.LABELNAME"
-        }
-    };
 	
 	//LAYERS
 	uc_gis_people = new FeatureLayer({
@@ -123,14 +59,6 @@ require([
 		},
 		visible: true,
 		popupEnabled:true
-	})
-	active_projects = new FeatureLayer({
-		portalItem: {
-			id: "2ed5680d247043fc983f8197eb0b0893"
-		},
-		visible: true,
-		labelingInfo:[active_projects_labels],
-		popupEnabled:false
 	})
 
 	everyLayer = [uc_gis_people]
@@ -150,52 +78,15 @@ require([
 	})
 	
 	//WIDGETS	
-	view.ui.remove("attribution");
-	
 	homeBtn = new Home({
         view: view
     })
-    view.ui.add(homeBtn, "top-left")
-    
-    var locateBtn = new Locate({
+    locateBtn = new Locate({
         view: view
       });
-    view.ui.add(locateBtn, {position: "top-left"});
     
-	view.ui.add("map-options-footer", "top-right")
-	
-	searchWidget = new Search({
-        view: view,
-        maxSuggestions: 8,
-		allPlaceholder: "Search for a person, campus, or role",
-        sources: [
-            {featureLayer: {
-                url: "https://services9.arcgis.com/mt4kvYhNXSa5AqLG/ArcGIS/rest/services/service_2ca947ed477e4617b92951d58a4f6b21/FeatureServer/0"},
-            searchFields: ["name", "contact_email", "person_type", "campus"],
-            displayField: "*",
-            exactMatch: false,
-            outFields: ["*"],
-            name: "UC GIS People"
-            }
-        ]
-    });
-    searchWidget.includeDefaultSources = false //remove ArcGIS World Geocoding Service
-	searchWidget.on("select-result", function(event){
-	  searchWidget.clear();
-	  buildings_lyr.labelsVisible = true
-	  view.zoom = 19
-	  var viewD = document.getElementById('viewDiv');
-	  var mobile_menu = document.getElementById('mobile-menu');
-	  var menu_icon = document.getElementById('menu-icon');
-	  var close_menu_icon = document.getElementById('close-menu-icon');
-	  if (viewD.style.display == 'none'){
-		viewD.style.display = 'flex'
-		mobile_menu.style.display = 'none'
-		menu_icon.style.display = 'flex'
-		close_menu_icon.style.display = 'none'
-	  }
-	});
-    view.ui.add(searchWidget, {position: "top-right"});
+	view.ui.add(locateBtn, {position: "top-left"});
+    view.ui.add(homeBtn, "top-left")
 	
 	function makeCard(person){
 		var name = person.attributes["name"]
