@@ -341,7 +341,7 @@ html, body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 4px;
-	margin: 10px;
+	padding-top:8px;
 }
 
 #clear-all {
