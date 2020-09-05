@@ -1,0 +1,68 @@
+{"description":{
+    "id": "84d9a04d60e94602af8f25fdb3d5abf0",
+    "owner": "carlos.barahona_ucop",
+    "created": 1597334548000,
+    "isOrgItem": true,
+    "modified": 1597334548000,
+    "guid": null,
+    "name": null,
+    "title": "UC GIS",
+    "type": "Hub Initiative",
+    "typeKeywords": [
+        "Hub",
+        "hubInitiative",
+        "OpenData"
+    ],
+    "description": "Create your own initiative by combining existing applications with a custom site.",
+    "tags": [],
+    "snippet": "Create your own initiative by combining existing applications with a custom site. Use this initiative to form teams around a problem and invite your community to participate.",
+    "thumbnail": null,
+    "documentation": null,
+    "extent": [
+        [
+            -124.9911406249985,
+            31.238199054145042
+        ],
+        [
+            -111.24287499998127,
+            43.283616140705824
+        ]
+    ],
+    "categories": [],
+    "spatialReference": null,
+    "accessInformation": null,
+    "licenseInfo": null,
+    "culture": "en-us",
+    "properties": {
+        "collaborationGroupId": "6b9c963d8e9b4b0babd30f21109f3854",
+        "contentGroupId": "d9a3f98e63d448f2a8997d8f202e16e8",
+        "followersGroupId": "a8d91ca038fb4e28b7ecd6bc4185d912"
+    },
+    "url": "https://uc-gis-1-ucop.hub.arcgis.com",
+    "proxyFilter": null,
+    "access": "shared",
+    "size": 55,
+    "appCategories": [],
+    "industries": [],
+    "languages": [],
+    "largeThumbnail": null,
+    "banner": null,
+    "screenshots": [],
+    "listed": false,
+    "ownerFolder": null,
+    "protected": false,
+    "commentsEnabled": true,
+    "numComments": 0,
+    "numRatings": 0,
+    "avgRating": 0,
+    "numViews": 146,
+    "itemControl": "admin",
+    "scoreCompleteness": 41,
+    "groupDesignations": null
+},
+"data":{
+      "assets": [],
+      "indicators": [],
+      "recommendedTemplates": []
+  }
+}

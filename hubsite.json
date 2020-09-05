@@ -1,0 +1,1296 @@
+{"description":{
+    "id": "5bf7d2d0e52242b7939654170467b63c",
+    "owner": "carlos.barahona_ucop",
+    "created": 1597334550000,
+    "isOrgItem": true,
+    "modified": 1599262669000,
+    "guid": null,
+    "name": null,
+    "title": "UC GIS",
+    "type": "Hub Site Application",
+    "typeKeywords": [
+        "Hub",
+        "hubSite",
+        "hubSolution",
+        "JavaScript",
+        "Map",
+        "Mapping Site",
+        "Online Map",
+        "OpenData",
+        "Ready To Use",
+        "selfConfigured",
+        "state:hasUnpublishedChanges",
+        "Web Map",
+        "Registered App"
+    ],
+    "description": "Create your own initiative by combining existing applications with a custom site. Use this initiative to form teams around a problem and invite your community to participate.",
+    "tags": [
+        "Hub Site"
+    ],
+    "snippet": "Connecting the people who administer and use GIS to support the academic mission of the University of California college system. ",
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "documentation": null,
+    "extent": [
+        [
+            -124.9911406249985,
+            31.238199054145042
+        ],
+        [
+            -111.24287499998127,
+            43.283616140705824
+        ]
+    ],
+    "categories": [],
+    "spatialReference": null,
+    "accessInformation": null,
+    "licenseInfo": null,
+    "culture": "en-us",
+    "properties": {
+        "createdFrom": "premiumDefaultSite Solution Template (embedded)",
+        "schemaVersion": 1.3,
+        "hasSeenGlobalNav": true,
+        "collaborationGroupId": "6b9c963d8e9b4b0babd30f21109f3854",
+        "contentGroupId": "d9a3f98e63d448f2a8997d8f202e16e8",
+        "followersGroupId": "a8d91ca038fb4e28b7ecd6bc4185d912",
+        "parentInitiativeId": "84d9a04d60e94602af8f25fdb3d5abf0",
+        "parentId": "embedded-premium-default-site",
+        "source": "embedded-premium-default-site",
+        "children": [],
+        "teams": [
+            "cc5eb114ddf441d29adf105e92259cfa"
+        ]
+    },
+    "url": "https://uc-gis-1-ucop.hub.arcgis.com",
+    "proxyFilter": null,
+    "access": "shared",
+    "size": 843147,
+    "appCategories": [],
+    "industries": [],
+    "languages": [],
+    "largeThumbnail": null,
+    "banner": null,
+    "screenshots": [],
+    "listed": false,
+    "ownerFolder": null,
+    "protected": true,
+    "commentsEnabled": true,
+    "numComments": 0,
+    "numRatings": 0,
+    "avgRating": 0,
+    "numViews": 301,
+    "itemControl": "admin",
+    "scoreCompleteness": 61,
+    "groupDesignations": null
+},
+"data":{
+    "catalog": {
+        "groups": [
+            "d9a3f98e63d448f2a8997d8f202e16e8"
+        ]
+    },
+    "values": {
+        "title": "UC GIS",
+        "defaultHostname": "uc-gis-1-ucop.hub.arcgis.com",
+        "subdomain": "uc-gis-1",
+        "public": false,
+        "faviconUrl": "https://www.universityofcalifornia.edu/sites/all/themes/university-of-california/favicon.ico",
+        "uiVersion": "2.3",
+        "map": {
+            "basemaps": {
+                "primary": {
+                    "baseMapLayers": [
+                        {
+                            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+                            "layerType": "ArcGISTiledMapServiceLayer",
+                            "resourceInfo": {
+                                "currentVersion": 10.3,
+                                "mapName": "Layers",
+                                "supportsDynamicLayers": false,
+                                "layers": [
+                                    {
+                                        "id": 0,
+                                        "name": "Citations",
+                                        "parentLayerId": -1,
+                                        "defaultVisibility": false,
+                                        "subLayerIds": null,
+                                        "minScale": 0,
+                                        "maxScale": 0
+                                    }
+                                ],
+                                "tables": [],
+                                "spatialReference": {
+                                    "wkid": 102100,
+                                    "latestWkid": 3857
+                                },
+                                "singleFusedMapCache": true,
+                                "tileInfo": {
+                                    "rows": 256,
+                                    "cols": 256,
+                                    "dpi": 96,
+                                    "format": "JPEG",
+                                    "compressionQuality": 90,
+                                    "origin": {
+                                        "x": -20037508.342787,
+                                        "y": 20037508.342787
+                                    },
+                                    "spatialReference": {
+                                        "wkid": 102100,
+                                        "latestWkid": 3857
+                                    },
+                                    "lods": [
+                                        {
+                                            "level": 0,
+                                            "resolution": 156543.03392800014,
+                                            "scale": 591657527.591555
+                                        },
+                                        {
+                                            "level": 1,
+                                            "resolution": 78271.51696399994,
+                                            "scale": 295828763.795777
+                                        },
+                                        {
+                                            "level": 2,
+                                            "resolution": 39135.75848200009,
+                                            "scale": 147914381.897889
+                                        },
+                                        {
+                                            "level": 3,
+                                            "resolution": 19567.87924099992,
+                                            "scale": 73957190.948944
+                                        },
+                                        {
+                                            "level": 4,
+                                            "resolution": 9783.93962049996,
+                                            "scale": 36978595.474472
+                                        },
+                                        {
+                                            "level": 5,
+                                            "resolution": 4891.96981024998,
+                                            "scale": 18489297.737236
+                                        },
+                                        {
+                                            "level": 6,
+                                            "resolution": 2445.98490512499,
+                                            "scale": 9244648.868618
+                                        },
+                                        {
+                                            "level": 7,
+                                            "resolution": 1222.992452562495,
+                                            "scale": 4622324.434309
+                                        },
+                                        {
+                                            "level": 8,
+                                            "resolution": 611.4962262813797,
+                                            "scale": 2311162.217155
+                                        },
+                                        {
+                                            "level": 9,
+                                            "resolution": 305.74811314055756,
+                                            "scale": 1155581.108577
+                                        },
+                                        {
+                                            "level": 10,
+                                            "resolution": 152.87405657041106,
+                                            "scale": 577790.554289
+                                        },
+                                        {
+                                            "level": 11,
+                                            "resolution": 76.43702828507324,
+                                            "scale": 288895.277144
+                                        },
+                                        {
+                                            "level": 12,
+                                            "resolution": 38.21851414253662,
+                                            "scale": 144447.638572
+                                        },
+                                        {
+                                            "level": 13,
+                                            "resolution": 19.10925707126831,
+                                            "scale": 72223.819286
+                                        },
+                                        {
+                                            "level": 14,
+                                            "resolution": 9.554628535634155,
+                                            "scale": 36111.909643
+                                        },
+                                        {
+                                            "level": 15,
+                                            "resolution": 4.77731426794937,
+                                            "scale": 18055.954822
+                                        },
+                                        {
+                                            "level": 16,
+                                            "resolution": 2.388657133974685,
+                                            "scale": 9027.977411
+                                        },
+                                        {
+                                            "level": 17,
+                                            "resolution": 1.1943285668550503,
+                                            "scale": 4513.988705
+                                        },
+                                        {
+                                            "level": 18,
+                                            "resolution": 0.5971642835598172,
+                                            "scale": 2256.994353
+                                        },
+                                        {
+                                            "level": 19,
+                                            "resolution": 0.29858214164761665,
+                                            "scale": 1128.497176
+                                        },
+                                        {
+                                            "level": 20,
+                                            "resolution": 0.14929107082380833,
+                                            "scale": 564.248588
+                                        },
+                                        {
+                                            "level": 21,
+                                            "resolution": 0.07464553541190416,
+                                            "scale": 282.124294
+                                        },
+                                        {
+                                            "level": 22,
+                                            "resolution": 0.03732276770595208,
+                                            "scale": 141.062147
+                                        },
+                                        {
+                                            "level": 23,
+                                            "resolution": 0.01866138385297604,
+                                            "scale": 70.5310735
+                                        }
+                                    ]
+                                },
+                                "initialExtent": {
+                                    "xmin": -28848255.049479112,
+                                    "ymin": -2077452.082122866,
+                                    "xmax": 28848255.049479112,
+                                    "ymax": 16430757.376790084,
+                                    "spatialReference": {
+                                        "wkid": 102100,
+                                        "latestWkid": 3857
+                                    }
+                                },
+                                "fullExtent": {
+                                    "xmin": -20037507.067161843,
+                                    "ymin": -19971868.880408604,
+                                    "xmax": 20037507.067161843,
+                                    "ymax": 19971868.88040863,
+                                    "spatialReference": {
+                                        "wkid": 102100,
+                                        "latestWkid": 3857
+                                    }
+                                },
+                                "minScale": 591657527.591555,
+                                "maxScale": 70.5310735,
+                                "units": "esriMeters",
+                                "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+                                "capabilities": "Map,Tilemap,Query,Data",
+                                "supportedQueryFormats": "JSON, AMF",
+                                "exportTilesAllowed": false,
+                                "maxRecordCount": 100,
+                                "maxImageHeight": 4096,
+                                "maxImageWidth": 4096,
+                                "supportedExtensions": "KmlServer"
+                            }
+                        }
+                    ],
+                    "title": "Topographic"
+                }
+            }
+        },
+        "defaultExtent": {
+            "xmin": -13913950.128045283,
+            "ymin": 3663722.6160124587,
+            "xmax": -12383500.199377697,
+            "ymax": 5355241.234804818,
+            "spatialReference": {
+                "wkid": 102100
+            }
+        },
+        "pages": [
+            {
+                "id": "dcf5ec3c51d34abda4d6ad37cd24d010",
+                "title": "About",
+                "slug": "about"
+            },
+            {
+                "id": "b68f26f0ca3c45f2b9d3c6b6bd25f6a2",
+                "title": "Network",
+                "slug": "network"
+            },
+            {
+                "id": "a5c138af3da345399287917e04d254e4",
+                "title": "Resources",
+                "slug": "resources"
+            },
+            {
+                "id": "c0294879cdd944e69984fbf4801c7e9e",
+                "title": "Showcase",
+                "slug": "showcase"
+            },
+            {
+                "id": "5e866a08462748a18f65604293dbbbfb",
+                "title": "ucsc",
+                "slug": "ucsc"
+            },
+            {
+                "id": "2d739dd0ef8c486c8a05f002d31dd08d",
+                "title": "ucsf",
+                "slug": "ucsf"
+            },
+            {
+                "id": "d8185dfe6b8647cab8a42e2587d0bf51",
+                "title": "ucsd",
+                "slug": "ucsd"
+            },
+            {
+                "id": "353a8587ae8b4a289d75db37b8348b08",
+                "title": "ucdavis",
+                "slug": "ucdavis"
+            },
+            {
+                "id": "5ad56a2076c0455085b4f735256f7bc5",
+                "title": "ucla",
+                "slug": "ucla"
+            },
+            {
+                "id": "30915d19edac42d09e5550ff18b4e1d7",
+                "title": "GIS Day",
+                "slug": "gis-day"
+            }
+        ],
+        "layout": {
+            "sections": [
+                {
+                    "containment": "fluid",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": true,
+                            "isUrl": false,
+                            "state": "valid",
+                            "display": {},
+                            "transparency": 82,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#000000",
+                            "image": "https://s3.amazonaws.com/geohub-assets/templates/public-engagement/city-architecture.jpg",
+                            "fileSrc": "berkeley-campus-california_234526418.jpeg",
+                            "cropSrc": "berkeley-campus-california_234526418.jpeg"
+                        },
+                        "color": "#ffffff",
+                        "rowLayout": "wide"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 2.1,
+                                            "markdown": "<div style=\"background: rgba(43,43,43,0.9); color: #fff; padding: 20px; height: 400px;\">\n<h2 style=\"font-size: 30px; line-height: 32px;\">WELCOME TO UC GIS</h2>\n<p style=\"font-size: 16px; margin-top: 40px;\">Connecting the people who administer and use GIS to support the academic mission of the University of California college system.\n</p>\n</div>"
+                                        }
+                                    },
+                                    "width": 6,
+                                    "showEditor": false
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 2.1,
+                                            "markdown": "<div style=\"min-height: 420px\"></div>\n"
+                                        }
+                                    },
+                                    "width": 6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#3276ae",
+                            "image": ""
+                        },
+                        "color": "#ffffff"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 2.1,
+                                            "markdown": "<h5><span style=\"background-color: initial; color: currentcolor;\">Find information  on Geographic \nInformation Systems (GIS) across the UC system. Our goal is to bring together people and knowledge about spatial research at UC campuses, mapping practices, and GIS license administration.</span></h5>\n<p></p>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "transparent"
+                        }
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mt-8 mb-8\" style=\"text-align: center;\">\n    <h1>Our Progress So Far</h1>\n    <p>Leverage this section to share progress or other stats with the public. Make it transparent and exciting to see the results of the hard work or why an initiative needs support. This is also a great space to inspire your audience to potentially get involved.</p>\n</div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "summary-statistic-card",
+                                        "settings": {
+                                            "url": "",
+                                            "statFieldName": "",
+                                            "statFieldType": "",
+                                            "statType": "",
+                                            "statValueAlign": "left",
+                                            "statValueColor": null,
+                                            "decimalPlaces": 2,
+                                            "title": "Statistic Title",
+                                            "titleAlign": "left",
+                                            "leadingText": "",
+                                            "trailingText": "...",
+                                            "trailingTextAlign": "left",
+                                            "formatNumberGroupings": true,
+                                            "showAsCurrency": false,
+                                            "currencyCode": "USD"
+                                        }
+                                    },
+                                    "width": 4
+                                },
+                                {
+                                    "component": {
+                                        "name": "summary-statistic-card",
+                                        "settings": {
+                                            "url": "",
+                                            "statFieldName": "",
+                                            "statFieldType": "",
+                                            "statType": "",
+                                            "statValueAlign": "left",
+                                            "statValueColor": null,
+                                            "decimalPlaces": 2,
+                                            "title": "Statistic Title",
+                                            "titleAlign": "left",
+                                            "leadingText": "",
+                                            "trailingText": "...",
+                                            "trailingTextAlign": "left",
+                                            "formatNumberGroupings": true,
+                                            "showAsCurrency": false,
+                                            "currencyCode": "USD"
+                                        }
+                                    },
+                                    "width": 4
+                                },
+                                {
+                                    "component": {
+                                        "name": "summary-statistic-card",
+                                        "settings": {
+                                            "url": "",
+                                            "statFieldName": "",
+                                            "statFieldType": "",
+                                            "statType": "",
+                                            "statValueAlign": "left",
+                                            "statValueColor": null,
+                                            "decimalPlaces": 2,
+                                            "title": "Statistic Title",
+                                            "titleAlign": "left",
+                                            "leadingText": "",
+                                            "trailingText": "...",
+                                            "trailingTextAlign": "left",
+                                            "formatNumberGroupings": true,
+                                            "showAsCurrency": false,
+                                            "currencyCode": "USD"
+                                        }
+                                    },
+                                    "width": 4
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mb-4\"></div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#f5f5f5"
+                        },
+                        "color": "#4e4e4e"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mt-8 mb-4\" style=\"text-align: center;\">\n<h1>Get Involved with the Community Today!</h1>\n<p>Utilize this section to provide steps on how to get involved, show different phases of your initiative or simply highlight areas of concern.</p>\n</div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<ul class=\"pledge-wrapper pledge-wrapper-center pledge-numbers-white\">\n\n  <li>\n    <div class=\"pledge-content\">\n      <h3 class=\"pledge-title\">Help improve the air quality</h3>\n      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n    </div>\n  </li>\n\n  <li>\n    <div class=\"pledge-content\">\n      <h3 class=\"pledge-title\">Report Data</h3>\n      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n    </div>\n  </li>\n\n  <li>\n    <div class=\"pledge-content\">\n      <h3 class=\"pledge-title\">Become Involved</h3>\n      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n    </div>\n  </li>\n\n  <li>\n    <div class=\"pledge-content\">\n      <h3 class=\"pledge-title\">Contribute</h3>\n      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n    </div>\n  </li>\n  \n</ul>\n\n\n<style>\n/* Pledge Wrapper - Default */\n.pledge-wrapper,\n.pledge-wrapper-center,\n.pledge-wrapper-simple {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  flex-flow: row wrap; }\n\n.pledge-wrapper li,\n.pledge-wrapper-center li,\n.pledge-wrapper-simple li {\n  counter-increment: pledge-counter;\n  position: relative;\n  flex-basis: 25%;\n  width: 25%;\n  margin-top: 40px;\n  padding-top: 40px; }\n\n@media screen and (max-width: 800px) {\n  .pledge-wrapper li,\n  .pledge-wrapper-center li,\n  .pledge-wrapper-simple li {\n    flex-basis: 50%;\n    width: 50%; }\n  .pledge-wrapper li::before,\n  .pledge-wrapper-center li::before,\n  .pledge-wrapper-simple li::before {\n    transform: translate(0, -50%) !important; } }\n\n@media screen and (max-width: 600px) {\n  .pledge-wrapper li,\n  .pledge-wrapper-center li,\n  .pledge-wrapper-simple li {\n    flex-basis: 100%;\n    width: 100%; } }\n\n.pledge-wrapper li::before,\n.pledge-wrapper-center li::before,\n.pledge-wrapper-simple li::before {\n  box-sizing: border-box;\n  content: counter(pledge-counter);\n  display: inline-block;\n  font-family: 'Avenir', sans-serif;\n  font-size: 3rem;\n  font-weight: 600;\n  line-height: 1;\n  text-align: center;\n  background-color: #4C93E0;\n  border-radius: 50%;\n  color: #fff;\n  padding: 1rem;\n  height: 48px;\n  width: 48px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  transform: translate(-50%, -50%);\n  z-index: 4; }\n\n.pledge-wrapper li::after,\n.pledge-wrapper-center li::after {\n  content: '';\n  display: block;\n  background-color: #4C93E0;\n  border-radius: 0;\n  height: 10px;\n  width: 100%;\n  position: absolute;\n  top: 0;\n  transform: translateY(-50%);\n  z-index: 2; }\n\n.pledge-wrapper li:first-of-type::after,\n.pledge-wrapper-center li:first-of-type::after {\n  border-radius: 10px 0 0 10px; }\n\n.pledge-wrapper li:last-of-type::after,\n.pledge-wrapper-center li:last-of-type::after {\n  border-radius: 0 10px 10px 0; }\n\n.pledge-wrapper .pledge-content,\n.pledge-wrapper-center .pledge-content {\n  box-sizing: border-box;\n  margin-top: -1.5rem;\n  padding: 0 2rem; }\n\n.pledge-wrapper .pledge-content .pledge-title,\n.pledge-wrapper-center .pledge-content .pledge-title,\n.pledge-wrapper-simple .pledge-content .pledge-title {\n  font-family: 'Avenir', sans-serif;\n  font-size: 2rem;\n  font-weight: 500; }\n\n/* Pledge Wrapper - Centered */\n.pledge-wrapper-center li::before {\n  font-size: 3.75rem;\n  left: 50%;\n  height: 56px;\n  width: 56px; }\n\n@media screen and (max-width: 800px) {\n  .pledge-wrapper-center li::before {\n    transform: translate(-50%, -50%) !important; } }\n\n.pledge-wrapper-center li::after {\n  border-radius: 0; }\n\n.pledge-wrapper-center .pledge-content {\n  text-align: center; }\n\n/* Pledge Wrapper - List */\n.pledge-wrapper-list {\n  list-style: none;\n  margin: 0;\n  padding: 0; }\n\n.pledge-wrapper-list li {\n  counter-increment: pledge-counter;\n  position: relative;\n  margin-left: 60px;\n  padding: 1rem 0; }\n\n.pledge-wrapper-list li::before {\n  box-sizing: border-box;\n  content: counter(pledge-counter);\n  display: inline-block;\n  font-family: 'Avenir', sans-serif;\n  font-size: 6rem;\n  font-weight: 600;\n  line-height: 1;\n  text-align: center;\n  color: #4C93E0;\n  position: absolute;\n  top: 50%;\n  left: -35px;\n  transform: translate(-50%, -50%);\n  z-index: 4; }\n\n/* Pledge Wrapper - Simple */\n.pledge-wrapper-simple li::before {\n  background-color: transparent;\n  border-radius: 0;\n  color: #4C93E0;\n  font-size: 6rem; }\n\n/* Pledge Wrapper - White Numbers (Modifier) */\n.pledge-numbers-white li::before {\n  background-color: #fff;\n  border: 1px solid #4C93E0;\n  color: #4C93E0; }\n\n.flex-row {\n  display: flex;\n  align-items: center; }\n\n@media screen and (max-width: 767px) {\n  .flex-row {\n    flex-direction: column; } }\n</style>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mt-3 mb-10\" style=\"text-align: center;\">\n  <a href=\"#\" class=\"btn btn-lg btn-primary\">Contribute</a>\n</div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "transparent",
+                            "image": ""
+                        },
+                        "color": "#444444"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mt-8 mb-6\" style=\"text-align: center;\">\n  <h1>Our Focus</h1>\n<p>Leverage these sections to tell your initiative story. Provide key information regarding your initiatives with an opportunity to go to a specific page or app to learn more.  </p>\n</div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "image-card",
+                                        "settings": {
+                                            "src": "https://s3.amazonaws.com/geohub-assets/templates/public-engagement/planting-trees.jpg",
+                                            "fileSrc": "",
+                                            "cropSrc": "",
+                                            "alt": "",
+                                            "caption": "",
+                                            "captionAlign": "center",
+                                            "hyperlink": "",
+                                            "hyperlinkTabOption": "new",
+                                            "isUrl": true,
+                                            "isFile": false,
+                                            "state": "valid",
+                                            "display": {
+                                                "position": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                },
+                                                "reflow": false
+                                            }
+                                        }
+                                    },
+                                    "width": 6
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"display-flex flex-middle\" style=\"min-height: 360px\">\n  <div>\n    <h2>Section Heading</h2>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n    \n    <p><a href=\"#\" class=\"btn btn-primary\">Call To Action</a></p>\n  </div>\n</div>"
+                                        }
+                                    },
+                                    "width": 6,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"display-flex flex-middle\" style=\"min-height: 360px\">\n  <div>\n    <h2>Section Heading</h2>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n    \n    <p><a href=\"#\" class=\"btn btn-primary\">Call To Action</a></p>\n  </div>\n</div>"
+                                        }
+                                    },
+                                    "width": 6,
+                                    "showEditor": false
+                                },
+                                {
+                                    "component": {
+                                        "name": "image-card",
+                                        "settings": {
+                                            "src": "https://s3.amazonaws.com/geohub-assets/templates/public-engagement/growing-tomatoes.jpg",
+                                            "fileSrc": "",
+                                            "cropSrc": "",
+                                            "alt": "",
+                                            "caption": "",
+                                            "captionAlign": "center",
+                                            "hyperlink": "",
+                                            "hyperlinkTabOption": "new",
+                                            "isUrl": true,
+                                            "isFile": false,
+                                            "state": "valid",
+                                            "display": {
+                                                "position": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                },
+                                                "reflow": false
+                                            }
+                                        }
+                                    },
+                                    "width": 6
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "image-card",
+                                        "settings": {
+                                            "src": "https://s3.amazonaws.com/geohub-assets/templates/public-engagement/wind-turbines.jpg",
+                                            "fileSrc": "",
+                                            "cropSrc": "",
+                                            "alt": "",
+                                            "caption": "",
+                                            "captionAlign": "center",
+                                            "hyperlink": "",
+                                            "hyperlinkTabOption": "new",
+                                            "isUrl": true,
+                                            "isFile": false,
+                                            "state": "valid",
+                                            "display": {
+                                                "position": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                },
+                                                "reflow": false
+                                            }
+                                        }
+                                    },
+                                    "width": 6
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"display-flex flex-middle\" style=\"min-height: 360px\">\n  <div>\n    <h2>Section Heading</h2>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n    \n    <p><a href=\"#\" class=\"btn btn-primary\">Call To Action</a></p>\n  </div>\n</div>"
+                                        }
+                                    },
+                                    "width": 6,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"display-flex flex-middle\" style=\"min-height: 360px\">\n  <div>\n    <h2>Section Heading</h2>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n    \n    <p><a href=\"#\" class=\"btn btn-primary\">Call To Action</a></p>\n  </div>\n</div>"
+                                        }
+                                    },
+                                    "width": 6,
+                                    "showEditor": false
+                                },
+                                {
+                                    "component": {
+                                        "name": "image-card",
+                                        "settings": {
+                                            "src": "https://s3.amazonaws.com/geohub-assets/templates/public-engagement/bike-rentals.jpg",
+                                            "fileSrc": "",
+                                            "cropSrc": "",
+                                            "alt": "",
+                                            "caption": "",
+                                            "captionAlign": "center",
+                                            "hyperlink": "",
+                                            "hyperlinkTabOption": "new",
+                                            "isUrl": true,
+                                            "isFile": false,
+                                            "state": "valid",
+                                            "display": {
+                                                "position": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                },
+                                                "reflow": false
+                                            }
+                                        }
+                                    },
+                                    "width": 6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#ededed"
+                        },
+                        "color": "#444444"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mt-4 mb-2\" style=\"text-align: center;\">\n  <h1>Don't just tell the story, show the story</h1>\n<p> Utilize an Esri Map on this page to show the changes or the primary areas of focus. </p>\n</div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "webmap-card",
+                                        "settings": {
+                                            "height": "400",
+                                            "showTitle": true,
+                                            "title": "",
+                                            "webmap": "",
+                                            "webscene": null,
+                                            "titleAlign": "left",
+                                            "enableMapLegend": false
+                                        }
+                                    },
+                                    "width": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#ffffff"
+                        },
+                        "color": "#444444"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div  class=\"mt-10 mb-8\" style=\"text-align: center;\">\n<h1>See Our City in Action</h1>\n<p>Use this section to save your community visitors research time and connect them with reports, apps, and links to other sites, that will give them deeper insights on the initiative regarding your city.</p>\n</div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "items/gallery-card",
+                                        "settings": {
+                                            "query": {
+                                                "num": "4",
+                                                "tags": [],
+                                                "types": []
+                                            },
+                                            "display": {
+                                                "imageType": "Thumbnails",
+                                                "viewText": "Explore",
+                                                "dropShadow": "none",
+                                                "cornerStyle": "square",
+                                                "buttonType": "primary",
+                                                "newTab": false,
+                                                "includeButtons": false
+                                            },
+                                            "version": 7,
+                                            "selectedGroups": [
+                                                {
+                                                    "title": "UC GIS",
+                                                    "id": "6b9c963d8e9b4b0babd30f21109f3854"
+                                                }
+                                            ],
+                                            "displayOption": [
+                                                "application"
+                                            ],
+                                            "imageType": "Thumbnails",
+                                            "viewText": "Explore",
+                                            "contentResponse": true,
+                                            "orgId": "Vm7I1fgtOcmi7COn",
+                                            "includedOption": "application",
+                                            "siteId": ""
+                                        }
+                                    },
+                                    "width": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#367aaa"
+                        }
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "event-list-card",
+                                        "settings": {
+                                            "cardVersion": 2,
+                                            "initiativeIds": [
+                                                "84d9a04d60e94602af8f25fdb3d5abf0"
+                                            ],
+                                            "calendarEnabled": true,
+                                            "eventListTitleAlign": "left",
+                                            "listEnabled": true,
+                                            "showTitle": true,
+                                            "title": "List of upcoming events",
+                                            "subtitle": "Location",
+                                            "display": {
+                                                "dropShadow": "none",
+                                                "cornerStyle": "square",
+                                                "colorPalette": "custom"
+                                            },
+                                            "defaultView": "calendar",
+                                            "height": 500,
+                                            "textColor": "#000000",
+                                            "backgroundColor": "#ffffff"
+                                        }
+                                    },
+                                    "width": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "valid",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#333333",
+                            "image": "https://s3.amazonaws.com/geohub-assets/templates/public-engagement/greenspace-community-center.jpg",
+                            "darken": true
+                        },
+                        "color": "#ffffff"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"section-follow mt-10\">\n  <h1 class=\"section-follow-title\">Sign Up and Follow this initiative</h1>\n  <hr />\n  <div class=\"section-follow-content\">\n    <p>Drive people to Sign Up for a community account and follow this initiative to receive updates from you. You can use the list to send email communication and invitations to host events.</p>\n  </div>\n</div>\n\n\n<style>\n  .section-follow {\n    margin-left: auto;\n    margin-right: auto;\n    padding-top: 2rem;\n    text-align: center;\n    width: 60%;\n  }\n\n  .section-follow .section-follow-title {\n    margin: 0 0 1.5rem;\n  }\n\n  .section-follow hr {\n    background-color: #3677ac;\n    border: 0;\n    height: 2px;\n    width: 100px;\n  }\n\n  .section-follow .section-follow-content {\n    font-size: 16px;\n    margin-bottom: 2rem;\n  }\n</style>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "follow-initiative-card",
+                                        "settings": {
+                                            "initiativeId": "84d9a04d60e94602af8f25fdb3d5abf0",
+                                            "callToActionText": "",
+                                            "callToActionAlign": "center",
+                                            "buttonText": "Follow Our Initiative",
+                                            "buttonAlign": "center",
+                                            "buttonStyle": "solid",
+                                            "unfollowButtonText": "Stop Following"
+                                        }
+                                    },
+                                    "width": 12
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mb-10\">&nbsp;</div>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#555555",
+                            "image": "",
+                            "darken": true
+                        },
+                        "color": "#ffffff"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div>&nbsp;</div>"
+                                        }
+                                    },
+                                    "width": 3,
+                                    "showEditor": false
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div class=\"mt-6 mb-6\" style=\"text-align: center;\">\n  <h1>Contact</h1>\n  <p>Make your site a two-way communication platform with your community. Use this to let them know that you welcome their feedback and that you want to hear from them.</p>\n  <p><a href=\"#\" class=\"btn btn-lg btn-primary\">Call To Action</a></p>\n</div>"
+                                        }
+                                    },
+                                    "width": 6,
+                                    "showEditor": false
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 1,
+                                            "markdown": "<div>&nbsp;</div>"
+                                        }
+                                    },
+                                    "width": 3,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "header": {
+                "component": {
+                    "name": "site-header",
+                    "settings": {
+                        "fullWidth": false,
+                        "iframeHeight": "150px",
+                        "iframeUrl": "",
+                        "links": [],
+                        "logoUrl": "",
+                        "title": "University of California GIS",
+                        "markdown": "<nav class=\"navbar navbar-default navbar-static-top first-tier\">\n  <div class=\"container\">\n    <ul class=\"nav nav-pills pull-right\" role=\"navigation\">\n      <li><a href=\"#\">Terms of Use</a></li>\n      <li><a href=\"#\">Twitter</a></li>\n      <li><a href=\"#\">Blog</a></li>\n    </ul>\n    <div class=\"navbar-brand\">\n      <div class=\"site-logo\">\n        <img src=\"https://placehold.it/50x50\" alt=\"logo\">\n        <h1>My Organization</h1>\n      </div>\n    </div>\n  </div>\n</nav>\n<nav class=\"navbar navbar-inverse navbar-static-top second-tier\" role=\"navigation\">\n  <div class=\"navbar-header\">\n    <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"icon-bar\"></span>\n      <span class=\"icon-bar\"></span>\n      <span class=\"icon-bar\"></span>\n    </button>\n  </div>\n  <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n    <div class=\"container\">\n      <div class=\"navbar\">\n        <ul class=\"nav navbar-nav\">\n          <li class=\"active\"><a href=\"#\">Home</a></li>\n          <li><a href=\"#about\">About</a></li>\n          <li><a href=\"#contact\">Contact</a></li>\n          <li><a href=\"#contact\">Contact</a></li>\n          <li><a href=\"#contact\">Contact</a></li>\n          <li><a href=\"#contact\">Contact</a></li>\n          <li><a href=\"#contact\">Contact</a></li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</nav>\n",
+                        "headerType": "default",
+                        "showLogo": true,
+                        "showTitle": true,
+                        "logo": {
+                            "display": {}
+                        },
+                        "shortTitle": "UC GIS",
+                        "menuLinks": [
+                            {
+                                "id": "b68f26f0ca3c45f2b9d3c6b6bd25f6a2",
+                                "type": "Hub Page",
+                                "name": "Network",
+                                "external": false,
+                                "title": "Network"
+                            },
+                            {
+                                "id": "c0294879cdd944e69984fbf4801c7e9e",
+                                "type": "Hub Page",
+                                "name": "Showcase",
+                                "external": false,
+                                "title": "Showcase"
+                            },
+                            {
+                                "id": "a5c138af3da345399287917e04d254e4",
+                                "type": "Hub Page",
+                                "name": "Resources",
+                                "external": false,
+                                "title": "Resources",
+                                "isDraggingObject": false
+                            },
+                            {
+                                "id": "dcf5ec3c51d34abda4d6ad37cd24d010",
+                                "type": "Hub Page",
+                                "name": "About",
+                                "external": false,
+                                "title": "About",
+                                "isDraggingObject": false
+                            },
+                            {
+                                "id": "cfb9a53dd36b41f8899d5c9aad3a1e94",
+                                "type": "Hub Page",
+                                "name": "Campuses",
+                                "external": false,
+                                "title": "Campuses",
+                                "isDraggingObject": false
+                            }
+                        ],
+                        "socialLinks": {
+                            "facebook": {
+                                "visible": false
+                            },
+                            "twitter": {
+                                "visible": false
+                            },
+                            "instagram": {
+                                "visible": false
+                            }
+                        },
+                        "schemaVersion": 2
+                    }
+                },
+                "showEditor": false
+            },
+            "footer": {
+                "component": {
+                    "name": "site-footer",
+                    "settings": {
+                        "footerType": "custom",
+                        "markdown": "<div class=\"footer-background\">\n  <div class=\"container-fluid\">\n    <div class=\"col-xs-12\">\n      <img src=\"https://placehold.it/50x50?text=\" alt=\"\" class=\"center-block logo\">\n    </div>\n    <div class=\"col-xs-6 center-block\">\n      <ul class=\"nav nav-pills\">\n\n        <li><a href=\"\">URL</a></li>\n\n        <li><a href=\"\">URL</a></li>\n\n        <li><a href=\"\">URL</a></li>\n\n        <li><a href=\"\">URL</a></li>\n\n      </ul>\n    </div>\n    <div class=\"col-xs-6 center-block\">\n      <ul class=\"nav nav-pills\" style=\"float:right;\">\n        <li><a href=\"#\">Terms of Service</a></li>\n        <li><a href=\"#\">Privacy Policy</a></li>\n      </ul>\n    </div>\n    <div class=\"col-xs-12\">\n      <div class=\"text-white\" style=\"padding-top: 3rem; text-align: center;\">\n        <p>&copy; Custom Initiative Template. All photos used on this site are from <a href=\"https://unsplash.com/\">Unsplash</a>.</p>\n      </div>\n    </div>\n  </div>\n</div>",
+                        "schemaVersion": 1
+                    }
+                },
+                "showEditor": false
+            }
+        },
+        "theme": {
+            "header": {
+                "background": "#1295d8",
+                "text": "#ffffff"
+            },
+            "body": {
+                "background": "#ffffff",
+                "text": "#14476b",
+                "link": "#ffb511"
+            },
+            "button": {
+                "background": "#ffd200",
+                "text": "no-color"
+            },
+            "logo": {
+                "small": "",
+                "link": "https://www.ucop.edu/"
+            },
+            "fonts": {
+                "base": {
+                    "url": "https://sandbox.idre.ucla.edu/fonts/KievitOTBook.css?family=KievitOTBook",
+                    "family": "KievitOTBook"
+                },
+                "heading": {
+                    "url": "https://sandbox.idre.ucla.edu/fonts/KievitOTBook.css?family=KievitOTBook",
+                    "family": "KievitOTBook"
+                }
+            },
+            "globalNav": {
+                "background": "#1295d8",
+                "text": "#ffffff"
+            }
+        },
+        "headerSass": ".first-tier {\n  height: 80px;\n  margin-bottom: 0px;\n  background-color: #005e95;\n}\n\n.first-tier .nav > li > a {\n  margin-top: 5px;\n  padding: 3px 6px;\n  color: #fff;\n}\n\n.first-tier .nav > li > a:focus,\n.first-tier .nav>li>a:hover {\n  background-color: #136fbf;\n  color: #fff;\n}\n\n.first-tier .site-logo img {\n  vertical-align: middle;\n}\n\n.first-tier h1 {\n  display: inline;\n  font-size: 25px;\n}\n\n.second-tier {\n  margin-bottom: 0px;\n  background-color: #05466c;\n}\n\n.site-header .navbar-header img {\n  vertical-align: middle;\n  height: 50px;\n  padding: 5px;\n}\n\n@media (max-width: 768px) {\n  .first-tier {\n    height: 100px;\n  }\n}\n\n@media (max-width: 498px) {\n  .navbar-brand {\n    padding: 0px;\n  }\n}\n\n.navbar-inverse .navbar-toggle {\n  border-color: #ffffff;\n}\n\n.navbar-inverse .navbar-toggle:hover {\n  background-color: transparent;\n}\n\n.navbar-inverse .navbar-toggle .icon-bar {\n  background-color: #ffffff;\n}\n\n",
+        "footerSass": "\n  .footer-background {\n    padding-top: 20px;\n    padding-bottom: 20px;\n    background-color: #e7e7e7;\n  }\n\n  .logo, .nav {\n    margin-bottom: 10px;\n  }\n\n  .nav-pills {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: center;\n  }\n",
+        "updatedAt": "2020-09-04T19:09:44.462Z",
+        "updatedBy": "parker.welch_ucop",
+        "capabilities": [
+            "api_explorer",
+            "pages",
+            "my_data",
+            "social_logins",
+            "json_chart_card",
+            "document_iframes",
+            "items_view",
+            "app_page",
+            "globalNav"
+        ],
+        "clientId": "RPmzwbywxArJchg5"
+    },
+    "source": "embedded-premium-default-site"
+}
+}
