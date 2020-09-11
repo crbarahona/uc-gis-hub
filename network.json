@@ -1,0 +1,180 @@
+{
+    "source": "PAGEEDITOR",
+    "folderId": null,
+    "values": {
+        "sites": [
+            {
+                "id": "5bf7d2d0e52242b7939654170467b63c",
+                "title": "UC GIS"
+            }
+        ],
+        "layout": {
+            "sections": [
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "color": "transparent"
+                        },
+                        "color": "#4c4c4c"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "markdown": "# Our Community\n \n<p>Use our community's public platform for exploring and downloading open data, discovering and building apps, and engaging to solve important local issues. Here we will provide an explanation on the Open Data we are sharing for our community, how to understand it, and for what you might use it. Together we can make a great, well-connected community!</p>"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "color": "#faf2de"
+                        },
+                        "color": "#4c4c4c"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "image-card",
+                                        "settings": {
+                                            "src": "https://cloud.githubusercontent.com/assets/7389593/20107607/1d2c3844-a5a7-11e6-9ec0-9e389033ccd8.jpg",
+                                            "alt": "Community",
+                                            "caption": ""
+                                        }
+                                    },
+                                    "width": 6
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "markdown": "## Intro\n \nEveryone has a story to tell and we are no different. This is the description of a particular policy that we will be sharing with you and the Open Data behind it.\n\n\n\n<a class=\"btn btn-primary\">Go to the Data</a>"
+                                        }
+                                    },
+                                    "width": 6,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "color": "transparent"
+                        },
+                        "color": "#4C4C4C"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "markdown": "## Where We're Going\n \nHere are the next steps and how we need your help to improve this data:\n"
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "color": "transparent"
+                        },
+                        "color": "#4c4c4c"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "markdown": ""
+                                        }
+                                    },
+                                    "width": 12,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "containment": "fixed",
+                    "isFooter": false,
+                    "style": {
+                        "background": {
+                            "color": "#f3f3ee",
+                            "image": ""
+                        },
+                        "color": "#333333"
+                    },
+                    "rows": [
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "markdown": "<br/>\n<em>Copyright 2016. Your Organization.</em>\n"
+                                        }
+                                    },
+                                    "width": 4,
+                                    "showEditor": false
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "markdown": "## About\n\n- [GeoNet forum on Open Data](https://geonet.esri.com/community/gis/web-gis/arcgis-open-data)\n- [Documentation](https://doc.arcgis.com/en/open-data/)\n- [Global Open Data Community](https://opendata.arcgis.com)"
+                                        }
+                                    },
+                                    "width": 4,
+                                    "showEditor": false
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "markdown": "## Contact Us \n \n- [@EsriDC](https://twitter.com/esridc)\n- [EsriDC Blog](https://dc.esri.com)\n- [GeoDev Meetups](https://www.esri.com/events/geodev-meetups)\n"
+                                        }
+                                    },
+                                    "width": 4,
+                                    "showEditor": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "updatedAt": "2020-08-13T16:05:06.320Z",
+        "updatedBy": "carlos.barahona_ucop"
+    }
+}
