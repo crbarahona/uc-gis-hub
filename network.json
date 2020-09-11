@@ -11,13 +11,24 @@
         "layout": {
             "sections": [
                 {
-                    "containment": "fixed",
+                    "containment": "fluid",
                     "isFooter": false,
                     "style": {
                         "background": {
-                            "color": "transparent"
+                            "isFile": true,
+                            "isUrl": false,
+                            "state": "valid",
+                            "display": {},
+                            "transparency": 71,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
+                            "color": "#ffffff",
+                            "fileSrc": "aerial-of-ucla-campus-west-coast-aerial-photography-mark-holtzman.jpg",
+                            "cropSrc": "aerial-of-ucla-campus-west-coast-aerial-photography-mark-holtzman.jpg"
                         },
-                        "color": "#4c4c4c"
+                        "rowLayout": "wide"
                     },
                     "rows": [
                         {
@@ -26,70 +37,123 @@
                                     "component": {
                                         "name": "markdown-card",
                                         "settings": {
-                                            "markdown": "# Our Community\n \n<p>Use our community's public platform for exploring and downloading open data, discovering and building apps, and engaging to solve important local issues. Here we will provide an explanation on the Open Data we are sharing for our community, how to understand it, and for what you might use it. Together we can make a great, well-connected community!</p>"
-                                        }
-                                    },
-                                    "width": 12,
-                                    "showEditor": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "containment": "fixed",
-                    "isFooter": false,
-                    "style": {
-                        "background": {
-                            "color": "#faf2de"
-                        },
-                        "color": "#4c4c4c"
-                    },
-                    "rows": [
-                        {
-                            "cards": [
-                                {
-                                    "component": {
-                                        "name": "image-card",
-                                        "settings": {
-                                            "src": "https://cloud.githubusercontent.com/assets/7389593/20107607/1d2c3844-a5a7-11e6-9ec0-9e389033ccd8.jpg",
-                                            "alt": "Community",
-                                            "caption": ""
+                                            "schemaVersion": 2.1,
+                                            "markdown": "<h6><br></h6><div style=\"background: rgba(18, 149, 216,.9); color: #fff; padding: 20px;\">\n<h1><strong><span style=\"background-color: initial; color: currentcolor;\">UC-GIS NETWORK</span></strong></h1></div>"
                                         }
                                     },
                                     "width": 6
                                 },
                                 {
                                     "component": {
-                                        "name": "markdown-card",
+                                        "name": "spacer-card",
                                         "settings": {
-                                            "markdown": "## Intro\n \nEveryone has a story to tell and we are no different. This is the description of a particular policy that we will be sharing with you and the Open Data behind it.\n\n\n\n<a class=\"btn btn-primary\">Go to the Data</a>"
+                                            "height": 100
                                         }
                                     },
-                                    "width": 6,
-                                    "showEditor": false
+                                    "settings": {
+                                        "height": 100
+                                    },
+                                    "width": 6
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
+                                        "name": "spacer-card",
+                                        "settings": {
+                                            "height": 100
+                                        }
+                                    },
+                                    "settings": {
+                                        "height": 100
+                                    },
+                                    "width": 1
+                                },
+                                {
+                                    "component": {
+                                        "name": "markdown-card",
+                                        "settings": {
+                                            "schemaVersion": 2.1,
+                                            "markdown": "<blockquote><div style=\"background: rgba(0, 0, 0,.5); color: #fff; padding: 20px;\"><em><span style=\"font-size: 16pt; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\" id=\"docs-internal-guid-6d22dded-7fff-8d21-6067-3ddce26cd4da\"><span style=\"font-size: 16pt;color: white; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\" id=\"docs-internal-guid-6d22dded-7fff-8d21-6067-3ddce26cd4da\">“We are well on the way to creating a site that is able to sustain itself with minimal oversight. ” <br></span></span></em><div align=\"right\"><em><span style=\"font-size: 16pt; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\" id=\"docs-internal-guid-6d22dded-7fff-8d21-6067-3ddce26cd4da\"><span style=\"font-size: 16pt;color: white; background-color: transparent; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\" id=\"docs-internal-guid-6d22dded-7fff-8d21-6067-3ddce26cd4da\">- Parker “Revolutionary” Welch</span></span></em></div></div></blockquote>"
+                                        }
+                                    },
+                                    "width": 8
+                                },
+                                {
+                                    "component": {
+                                        "name": "image-card",
+                                        "settings": {
+                                            "src": "",
+                                            "fileSrc": "0.jpg",
+                                            "cropSrc": "0.jpg",
+                                            "alt": "",
+                                            "caption": "",
+                                            "captionAlign": "center",
+                                            "hyperlink": "",
+                                            "hyperlinkTabOption": "new",
+                                            "isUrl": false,
+                                            "isFile": true,
+                                            "state": "valid",
+                                            "display": {
+                                                "position": {
+                                                    "x": "center",
+                                                    "y": "center"
+                                                },
+                                                "reflow": false
+                                            }
+                                        }
+                                    },
+                                    "width": 3
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "containment": "fixed",
+                    "containment": "fluid",
                     "isFooter": false,
                     "style": {
                         "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
                             "color": "transparent"
                         },
-                        "color": "#4C4C4C"
+                        "color": "#4c4c4c",
+                        "rowLayout": "wide"
                     },
                     "rows": [
                         {
                             "cards": [
                                 {
                                     "component": {
+                                        "name": "iframe-card",
+                                        "settings": {
+                                            "src": "https://welchp.github.io/people-search-filter/ ",
+                                            "height": 500,
+                                            "scrollable": false
+                                        }
+                                    },
+                                    "width": 12
+                                }
+                            ]
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "component": {
                                         "name": "markdown-card",
                                         "settings": {
-                                            "markdown": "## Where We're Going\n \nHere are the next steps and how we need your help to improve this data:\n"
+                                            "markdown": "",
+                                            "schemaVersion": 1
                                         }
                                     },
                                     "width": 12,
@@ -104,32 +168,15 @@
                     "isFooter": false,
                     "style": {
                         "background": {
-                            "color": "transparent"
-                        },
-                        "color": "#4c4c4c"
-                    },
-                    "rows": [
-                        {
-                            "cards": [
-                                {
-                                    "component": {
-                                        "name": "markdown-card",
-                                        "settings": {
-                                            "markdown": ""
-                                        }
-                                    },
-                                    "width": 12,
-                                    "showEditor": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "containment": "fixed",
-                    "isFooter": false,
-                    "style": {
-                        "background": {
+                            "isFile": false,
+                            "isUrl": true,
+                            "state": "",
+                            "display": {},
+                            "transparency": 0,
+                            "position": {
+                                "x": "center",
+                                "y": "center"
+                            },
                             "color": "#f3f3ee",
                             "image": ""
                         },
@@ -142,7 +189,8 @@
                                     "component": {
                                         "name": "markdown-card",
                                         "settings": {
-                                            "markdown": "<br/>\n<em>Copyright 2016. Your Organization.</em>\n"
+                                            "markdown": "<p><br/>\n<em>Copyright 2016. Your Organization.</em></p>",
+                                            "schemaVersion": 1
                                         }
                                     },
                                     "width": 4,
@@ -152,7 +200,8 @@
                                     "component": {
                                         "name": "markdown-card",
                                         "settings": {
-                                            "markdown": "## About\n\n- [GeoNet forum on Open Data](https://geonet.esri.com/community/gis/web-gis/arcgis-open-data)\n- [Documentation](https://doc.arcgis.com/en/open-data/)\n- [Global Open Data Community](https://opendata.arcgis.com)"
+                                            "markdown": "<h2 id=\"about\">About</h2>\n<ul>\n<li><a href=\"https://geonet.esri.com/community/gis/web-gis/arcgis-open-data\">GeoNet forum on Open Data</a></li>\n<li><a href=\"http://doc.arcgis.com/en/open-data/\">Documentation</a></li>\n<li><a href=\"http://opendata.arcgis.com\">Global Open Data Community</a></li>\n</ul>",
+                                            "schemaVersion": 1
                                         }
                                     },
                                     "width": 4,
@@ -162,7 +211,8 @@
                                     "component": {
                                         "name": "markdown-card",
                                         "settings": {
-                                            "markdown": "## Contact Us \n \n- [@EsriDC](https://twitter.com/esridc)\n- [EsriDC Blog](https://dc.esri.com)\n- [GeoDev Meetups](https://www.esri.com/events/geodev-meetups)\n"
+                                            "markdown": "<h2 id=\"contact-us\">Contact Us</h2>\n<ul>\n<li><a href=\"http://twitter.com/esridc\">@EsriDC</a></li>\n<li><a href=\"http://dc.esri.com\">EsriDC Blog</a></li>\n<li><a href=\"http://www.esri.com/events/geodev-meetups\">GeoDev Meetups</a></li>\n</ul>",
+                                            "schemaVersion": 1
                                         }
                                     },
                                     "width": 4,
