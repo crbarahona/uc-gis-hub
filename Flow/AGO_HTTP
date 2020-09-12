@@ -1,0 +1,12 @@
+f=json&token=@{body('Parse_JSON')?['token']}&rollbackOnFailure=true&features=[{
+"attributes" : {
+  "Name": "@{encodeUriComponent(triggerBody()?['name'])}",
+  "Campus": "@{encodeUriComponent(triggerBody()?['campus'])}",
+  "Department": "@{encodeUriComponent(triggerBody()?['department'])}",
+  "Contact_Email": "@{encodeUriComponent(triggerBody()?['email'])}",
+  "Bio": "@{encodeUriComponent(triggerBody()?['bio'])}",
+  "Title": "@{encodeUriComponent(triggerBody()?['title'])}",
+  "Contact_URL": "@{encodeUriComponent(triggerBody()?['url'])}",
+  "Approved": 0
+}
+}] 
