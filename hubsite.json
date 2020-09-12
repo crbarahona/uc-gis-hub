@@ -1,88 +1,4 @@
-{"description":{
-    "id": "5bf7d2d0e52242b7939654170467b63c",
-    "owner": "carlos.barahona_ucop",
-    "created": 1597334550000,
-    "isOrgItem": true,
-    "modified": 1599262669000,
-    "guid": null,
-    "name": null,
-    "title": "UC GIS",
-    "type": "Hub Site Application",
-    "typeKeywords": [
-        "Hub",
-        "hubSite",
-        "hubSolution",
-        "JavaScript",
-        "Map",
-        "Mapping Site",
-        "Online Map",
-        "OpenData",
-        "Ready To Use",
-        "selfConfigured",
-        "state:hasUnpublishedChanges",
-        "Web Map",
-        "Registered App"
-    ],
-    "description": "Create your own initiative by combining existing applications with a custom site. Use this initiative to form teams around a problem and invite your community to participate.",
-    "tags": [
-        "Hub Site"
-    ],
-    "snippet": "Connecting the people who administer and use GIS to support the academic mission of the University of California college system. ",
-    "thumbnail": "thumbnail/ago_downloaded.png",
-    "documentation": null,
-    "extent": [
-        [
-            -124.9911406249985,
-            31.238199054145042
-        ],
-        [
-            -111.24287499998127,
-            43.283616140705824
-        ]
-    ],
-    "categories": [],
-    "spatialReference": null,
-    "accessInformation": null,
-    "licenseInfo": null,
-    "culture": "en-us",
-    "properties": {
-        "createdFrom": "premiumDefaultSite Solution Template (embedded)",
-        "schemaVersion": 1.3,
-        "hasSeenGlobalNav": true,
-        "collaborationGroupId": "6b9c963d8e9b4b0babd30f21109f3854",
-        "contentGroupId": "d9a3f98e63d448f2a8997d8f202e16e8",
-        "followersGroupId": "a8d91ca038fb4e28b7ecd6bc4185d912",
-        "parentInitiativeId": "84d9a04d60e94602af8f25fdb3d5abf0",
-        "parentId": "embedded-premium-default-site",
-        "source": "embedded-premium-default-site",
-        "children": [],
-        "teams": [
-            "cc5eb114ddf441d29adf105e92259cfa"
-        ]
-    },
-    "url": "https://uc-gis-1-ucop.hub.arcgis.com",
-    "proxyFilter": null,
-    "access": "shared",
-    "size": 843147,
-    "appCategories": [],
-    "industries": [],
-    "languages": [],
-    "largeThumbnail": null,
-    "banner": null,
-    "screenshots": [],
-    "listed": false,
-    "ownerFolder": null,
-    "protected": true,
-    "commentsEnabled": true,
-    "numComments": 0,
-    "numRatings": 0,
-    "avgRating": 0,
-    "numViews": 301,
-    "itemControl": "admin",
-    "scoreCompleteness": 61,
-    "groupDesignations": null
-},
-"data":{
+{
     "catalog": {
         "groups": [
             "d9a3f98e63d448f2a8997d8f202e16e8"
@@ -90,8 +6,8 @@
     },
     "values": {
         "title": "UC GIS",
-        "defaultHostname": "uc-gis-1-ucop.hub.arcgis.com",
-        "subdomain": "uc-gis-1",
+        "defaultHostname": "uc-gis-ucop.hub.arcgis.com",
+        "subdomain": "uc-gis",
         "public": false,
         "faviconUrl": "https://www.universityofcalifornia.edu/sites/all/themes/university-of-california/favicon.ico",
         "uiVersion": "2.3",
@@ -407,9 +323,9 @@
                                         }
                                     },
                                     "width": 4
-                        }
-                    ]
-                },
+                                }
+                            ]
+                        },
                         {
                             "cards": [
                                 {
@@ -452,9 +368,9 @@
                                         "name": "spacer-card",
                                         "settings": {
                                             "height": "100"
-                                }
-                        },
-                                        "settings": {
+                                        }
+                                    },
+                                    "settings": {
                                         "height": 100
                                     },
                                     "width": 1
@@ -474,9 +390,9 @@
                                         "name": "spacer-card",
                                         "settings": {
                                             "height": 100
-                                }
-                        },
-                                        "settings": {
+                                        }
+                                    },
+                                    "settings": {
                                         "height": 100
                                     },
                                     "width": 1
@@ -514,8 +430,8 @@
                                         "settings": {
                                             "schemaVersion": 2.1,
                                             "markdown": "<style>\n  .section-follow {\n    margin-left: auto;\n    margin-right: auto;\n    padding-top: 2rem;\n    text-align: center;\n    width: 60%;\n  }\n.card-image-caption1 {\npadding: 0.6em 1.2em 0.6em;\nbackground-color: #f1ede8;\nbackground-image: url(https://www.universityofcalifornia.edu/sites/all/themes/university-of-california/assets/images/sprites/gray-stripes.png?1526325793);\nbackground-position: top right;\nbackground-repeat: repeat-y;\ncolor: #4C4C4C;\nmin-}\n\n\n\n  .section-follow .section-follow-title {\n    margin: 0 0 1.5rem;\n  }\nhr{background-color:#FFCC00 !important}\n.btn-gold{\ncolor: #FFB511;\n}\n  .section-follow hr {\n    background-color: #FFD200 !important;\n    border: 0;\n    height: 2px;\n    width: 100px;\n  }\n\n  .section-follow .section-follow-content {\n    font-size: 16px;\n    margin-bottom: 2rem;\n  }\n  .audience_nav { padding-right: 10% !important; padding-left: 10% !important; }\n  .audience_nav .card-image-caption1 { min-height: 8em; }\n  .audience_nav .card-image-caption1 { min-height: 8em; }\n  .audience_nav .calcite-web .card-content p { min-height: 4em; }\n</style>\n<div class=\"section-follow mt-10\">\n  <h1 class=\"section-follow-title\">GET INFORMATION ON:<br></h1>\n  <hr></div><div><div class=\"col-xs-12 col-sm-6 col-md-4\">\n      <div class=\"calcite-web\">\n        <div class=\"card-base\">\n          <div class=\"card-image-wrap\">\n            <img alt=\"Bridge Club, 1954\" class=\"card-image\" src=\"https://ucdavis.maps.arcgis.com/sharing/rest/content/items/c460581c2cc74672b28b3bfba3d804e1/resources/noun_people_3139685(1).png\">\n            <div class=\"card-image-caption1\"><h2>GETTING STARTED WITH UC-GIS<br></h2></div>\n          </div>\n          <div class=\"card-content\">\n            <p>Learn more about GIS and what people are doing at the UCs. </p>\n            <div aria-label=\"actions\" class=\"btn-group btn-group-justified\" role=\"group\">\n<a href=\"/pages/network\" class=\"btn btn-lg btn-primary\" style=\"background:#FFD200;border:1px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.2);border-radius:4px;color:black;\">Explore</a></div>\n            </div>\n          </div>\n        </div>\n      </div>\n      </div>\n      <div class=\"col-xs-12 col-sm-6 col-md-4\">\n      <div class=\"calcite-web\">\n        <div class=\"card-base\">\n          <div class=\"card-image-wrap\">\n            <img alt=\"Bridge Club, 1954\" class=\"card-image\" src=\"https://ucdavis.maps.arcgis.com/sharing/rest/content/items/c460581c2cc74672b28b3bfba3d804e1/resources/noun_Learning_1894347(1).png\">\n            <div class=\"card-image-caption1\"><h2>\n              USING SPATIAL TECHNOLOGY<br></h2></div>\n          </div>\n          <div class=\"card-content\"><p>Leverage the expertise and research at other UCs to further your own skills.<br></p>\n            <div aria-label=\"actions\" class=\"btn-group btn-group-justified\" role=\"group\">\n<a href=\"/pages/resources\" class=\"btn btn-lg btn-primary\" style=\"background:#FFD200;border:1px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.2);border-radius:4px;color:black;\">Explore</a></div>\n            </div>\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"col-xs-12 col-sm-6 col-md-4\">\n      <div class=\"calcite-web\">\n        <div class=\"card-base\">\n          <div class=\"card-image-wrap\">\n            <img alt=\"Bridge Club, 1954\" class=\"card-image\" src=\"https://ucdavis.maps.arcgis.com/sharing/rest/content/items/c460581c2cc74672b28b3bfba3d804e1/resources/noun_Project_2894889.png\">\n            <div class=\"card-image-caption1\"><h2>LICENSING<br></h2></div>\n          </div>\n          <div class=\"card-content\">\n            <p>Find out best practices for administrating site licenses for software like ArcGIS Pro, ERDAS, and more.<br></p>\n            <div aria-label=\"actions\" class=\"btn-group btn-group-justified\" role=\"group\">\n<a href=\"/pages/licensing\" class=\"btn btn-lg btn-primary\" style=\"background:#FFD200;border:1px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.2);border-radius:4px;color:black;\">Explore</a></div>\n            </div>\n          </div>\n        </div>\n      </div>\n    <div class=\"section-follow mt-10\"><br></div>"
-                                }
-                        },
+                                        }
+                                    },
                                     "width": 12
                                 }
                             ]
@@ -624,9 +540,9 @@
                                     },
                                     "settings": {
                                         "height": 100
-                },
+                                    },
                                     "width": 1
-                            },
+                                },
                                 {
                                     "component": {
                                         "name": "markdown-card",
@@ -634,9 +550,9 @@
                                             "schemaVersion": 2.1,
                                             "markdown": "<h5>Providing your information below will list you as a specialist that people can reach out to.<br></h5>"
                                         }
-                        },
+                                    },
                                     "width": 10
-                    },
+                                },
                                 {
                                     "component": {
                                         "name": "markdown-card",
@@ -741,7 +657,7 @@
                                     "width": 12
                                 }
                             ]
-                },
+                        },
                         {
                             "cards": [
                                 {
@@ -783,7 +699,7 @@
                         "links": [],
                         "logoUrl": "",
                         "title": "University of California GIS",
-                        "markdown": "<nav class=\"navbar navbar-default navbar-static-top first-tier\">\n  <div class=\"container\">\n    <div class=\"navbar-header\">\n      <div class=\"navbar-brand\">\n        <div class=\"site-logo\">\n          <img src=\"http://placehold.it/50x50\" alt=\"logo\">\n          <h1>My Organization</h1>\n        </div>\n     </div>\n    </div>\n    <ul class=\"nav nav-pills pull-right\" role=\"navigation\">\n        <li><a href=\"#\">Terms of Use</a></li>\n        <li><a href=\"#\">Twitter</a></li>\n        <li><a href=\"#\">Blog</a></li>\n    </ul>\n  </div>\n</nav>\n<nav class=\"navbar navbar-inverse navbar-static-top second-tier\" role=\"navigation\">\n      <div class=\"container\">\n         <div class=\"navbar\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"><a href=\"#\">Home</a></li>\n            <li><a href=\"#about\">About</a></li>\n            <li><a href=\"#contact\">Contact</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n",
+                        "markdown": "<nav class=\"navbar navbar-default navbar-static-top first-tier\">\n  <div class=\"container\">\n    <div class=\"navbar-header\">\n      <div class=\"navbar-brand\">\n        <div class=\"site-logo\">\n          <img src=\"https://placehold.it/50x50\" alt=\"logo\">\n          <h1>My Organization</h1>\n        </div>\n     </div>\n    </div>\n    <ul class=\"nav nav-pills pull-right\" role=\"navigation\">\n        <li><a href=\"#\">Terms of Use</a></li>\n        <li><a href=\"#\">Twitter</a></li>\n        <li><a href=\"#\">Blog</a></li>\n    </ul>\n  </div>\n</nav>\n<nav class=\"navbar navbar-inverse navbar-static-top second-tier\" role=\"navigation\">\n      <div class=\"container\">\n         <div class=\"navbar\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"><a href=\"#\">Home</a></li>\n            <li><a href=\"#about\">About</a></li>\n            <li><a href=\"#contact\">Contact</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n",
                         "headerType": "default",
                         "showLogo": false,
                         "showTitle": true,
@@ -867,7 +783,7 @@
             "body": {
                 "background": "#ffffff",
                 "text": "#14476b",
-                "link": "#ffb511"
+                "link": "#00778b"
             },
             "button": {
                 "background": "#ffd200",
@@ -894,8 +810,8 @@
         },
         "headerSass": ".first-tier {\n  height: 80px;\n  margin-bottom: 0px;\n  background-color: #005e95;\n}\n\n.first-tier .nav > li > a {\n  margin-top: 5px;\n  padding: 3px 6px;\n  color: #fff;\n}\n\n.first-tier .nav > li > a:focus,\n.first-tier .nav>li>a:hover {\n  background-color: #136fbf;\n  color: #fff;\n}\n\n.first-tier .site-logo img {\n  vertical-align: middle;\n}\n\n.first-tier h1 {\n  display: inline;\n  font-size: 25px;\n}\n\n.second-tier {\n  margin-bottom: 0px;\n  background-color: #05466c;\n}\n\n.site-header .navbar-header img {\n  vertical-align: middle;\n  height: 50px;\n  padding: 5px;\n}\n\n@media (max-width: 768px) {\n  .first-tier {\n    height: 100px;\n  }\n}\n\n@media (max-width: 498px) {\n  .navbar-brand {\n    padding: 0px;\n  }\n}\n\n.navbar-inverse .navbar-toggle {\n  border-color: #ffffff;\n}\n\n.navbar-inverse .navbar-toggle:hover {\n  background-color: transparent;\n}\n\n.navbar-inverse .navbar-toggle .icon-bar {\n  background-color: #ffffff;\n}\n\n",
         "footerSass": "\n  .footer-background {\n    padding-top: 20px;\n    padding-bottom: 20px;\n    background-color: #e7e7e7;\n  }\n\n  .logo, .nav {\n    margin-bottom: 10px;\n  }\n\n  .nav-pills {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: center;\n  }\n",
-        "updatedAt": "2020-09-04T19:09:44.462Z",
-        "updatedBy": "parker.welch_ucop",
+        "updatedAt": "2020-09-11T21:54:40.629Z",
+        "updatedBy": "amy.work_ucop",
         "capabilities": [
             "api_explorer",
             "pages",
@@ -907,8 +823,8 @@
             "app_page",
             "globalNav"
         ],
-        "clientId": "RPmzwbywxArJchg5"
+        "clientId": "RPmzwbywxArJchg5",
+        "internalUrl": "uc-gis-ucop.hub.arcgis.com"
     },
     "source": "embedded-premium-default-site"
-}
 }
